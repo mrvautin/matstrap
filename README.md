@@ -10,7 +10,7 @@ Just drop in the CSS and use all the existing Bootstrap syntax for grids, typogr
 
 ### Demo
 
-[Demo](https://matstrap.markmoffat.com/demo.html)
+See Demo [here](https://matstrap.markmoffat.com/demo.html).
 
 ### Developing
 
