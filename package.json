@@ -1,0 +1,31 @@
+{
+  "name": "matstrap",
+  "version": "1.0.0",
+  "description": "Add Material design without changing any Bootstrap syntax",
+  "scripts": {
+    "build": "gulp build",
+    "sass": "gulp sass",
+    "watch": "gulp sass:watch"
+  },
+  "author": "Mark Moffat",
+  "license": "MIT",
+  "keywords": [
+    "Bootstrap",
+    "Material",
+    "CSS",
+    "Sass",
+    "design",
+    "layout"
+  ],
+  "bugs": {
+    "url": "https://github.com/mrvautin/matstrap/issues"
+  },
+  "homepage": "https://matstrap.markmoffat.com",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.2.1"
+  }
+}
