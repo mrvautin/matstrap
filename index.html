@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="src/matstrap.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
     <link rel="stylesheet" href="custom.css" media="screen">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7038832-37"></script>
     <script>
-        // INSERT GA HERE
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-7038832-37');
     </script>
 </head>
 <body style="padding-bottom: 50px;">
@@ -54,13 +58,13 @@
                 You can run with our color scheme or you can roll your own.
             </p>
             <p class="lead text-center">
-                Moving from Bootstrap to Material is as easy as including one file in your HTML.
+                Moving from Bootstrap to Material (<code>Matstrap</code>) is as easy as replacing your existing <code>boostrap.min.css</code> with ours.
             </p>
             <p class="code text-center">
                 &lt;link rel="stylesheet" href="matstrap.min.css" media="screen"&gt;
             </p>
             <p class="lead text-center">
-                <a class="btn btn-success btn-lg" href="#" role="button">Download</a>
+                <a class="btn btn-success btn-lg" target="_blank" href="https://github.com/mrvautin/matstrap/archive/master.zip" role="button">Download</a>
             </p>
         </div>
     </div>

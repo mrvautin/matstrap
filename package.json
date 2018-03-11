@@ -1,6 +1,6 @@
 {
   "name": "matstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add Material design without changing any Bootstrap syntax",
   "scripts": {
     "build": "gulp build",
@@ -9,6 +9,10 @@
   },
   "author": "Mark Moffat",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrvautin/matstrap.git"
+  },
   "keywords": [
     "Bootstrap",
     "Material",
